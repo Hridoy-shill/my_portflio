@@ -1,14 +1,15 @@
 import React from 'react';
 import Navbar from '../Component\'s/Navbar/Navbar';
+import { Outlet } from 'react-router-dom';
 
 const HomePage = () => {
     return (
-        <div className='grid md:grid-cols-4'>
-            <div className='bg-black'>
+        <div className='md:flex w-[100%]'>
+            <div className='bg-black md:w-[20%]'>
                 <Navbar></Navbar>
             </div>
-            <div className='md:col-span-3 bg-slate-400'>
-                main content
+            <div className='md:col-span-3 bg-slate-400 md:w-[80%]'>
+                <Outlet></Outlet>
             </div>
         </div>
     );

@@ -8,7 +8,7 @@ const HomePage = () => {
             <div className='bg-black md:w-[20%]'>
                 <Navbar></Navbar>
             </div>
-            <div className='md:col-span-3 bg-slate-400 md:w-[80%]'>
+            <div className='md:col-span-3 md:w-[80%]'>
                 <Outlet></Outlet>
             </div>
         </div>

@@ -1,0 +1,4 @@
+.bg-Img{
+    background-image: linear-gradient(to bottom, rgb(22, 21, 21), rgba(0, 0, 0, 0.5)) ,url('../../assets/background1.jpg');
+    background-size: cover;
+}

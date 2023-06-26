@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars, FaFacebook, FaGithub, FaLinkedin, FaRegTimesCircle, FaTwitter } from "react-icons/fa";
 import { Link } from 'react-scroll'
-import myImg from '../../assets/WhatsApp Image 2023-06-17 at 20.24.34 (1).png'
+import myImg from '../../assets/WhatsApp_Image_2023-06-17_at_20.24.34__1_-removebg-preview.png'
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className='p-3 md:p-4 md:sticky md:top-0'>
             <div className='flex justify-between '>
                 <div className='md:mx-auto'>
-                    <img className='rounded-full md:w-44 w-14 border-4 border-gray-400 hover:border-yellow-500 duration-500' src={myImg}/>
+                    <img className='rounded-full md:w-44 w-14 border-4 border-yellow-500 duration-500' src={myImg}/>
                     <p className='text-yellow-500 font-bold md:text-center text-2xl md:text-2xl mt-2'>Hridoy Shill</p>
                 </div>
                 <div onClick={() => setIsMenuOpen(!isMenuOpen)} className='md:hidden'>

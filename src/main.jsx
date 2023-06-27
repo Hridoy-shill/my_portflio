@@ -6,10 +6,10 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import App from './App';
 import HomePage from './Pages/HomePage';
 import Home from './Component\'s/Home/Home';
 import AboutMe from './Component\'s/AboutMe/AboutMe';
+import Contact from './Component\'s/ContactMe/Contact';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +23,10 @@ const router = createBrowserRouter([
       {
         path:'/aboutMe',
         element:<AboutMe></AboutMe>
+      },
+      {
+        path:'/contactMe',
+        element:<Contact></Contact>
       }
     ]
   },

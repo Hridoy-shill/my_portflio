@@ -3,6 +3,7 @@ import Navbar from '../Component\'s/Navbar/Navbar';
 import { Outlet } from 'react-router-dom';
 import Contact from '../Component\'s/ContactMe/Contact';
 import MyServices from '../Component\'s/MyService\'s/MyServices';
+import MySkills from '../Component\'s/MySkills/MySkills';
 
 const HomePage = () => {
     return (
@@ -13,6 +14,7 @@ const HomePage = () => {
             <div className='md:col-span-3 md:w-[80%]'>
                 <Outlet></Outlet>
                 <MyServices></MyServices>
+                <MySkills></MySkills>
                 <Contact></Contact>
             </div>
         </div>

@@ -11,6 +11,7 @@ import Home from './Component\'s/Home/Home';
 import AboutMe from './Component\'s/AboutMe/AboutMe';
 import Contact from './Component\'s/ContactMe/Contact';
 import MyServices from './Component\'s/MyService\'s/MyServices';
+import MySkills from './Component\'s/MySkills/MySkills';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path:'/myService',
         element:<MyServices></MyServices>
+      },
+      {
+        path:'/mySkills',
+        element:<MySkills></MySkills>
       },
       {
         path:'/contactMe',

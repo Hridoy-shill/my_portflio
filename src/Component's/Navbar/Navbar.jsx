@@ -49,6 +49,9 @@ const Navbar = () => {
                         <Link to="mySkills" smooth={true} offset={0} duration={400} className='text-white text-lg hover:bg-yellow-500 hover:p-1 hover:text-black hover:rounded hover:text-bold duration-500 cursor-pointer hover:text-xl'>My Skill's</Link>
                     </li>
                     <li>
+                        <Link to="myProject" smooth={true} offset={0} duration={400} className='text-white text-lg hover:bg-yellow-500 hover:p-1 hover:text-black hover:rounded hover:text-bold duration-500 cursor-pointer hover:text-xl'>My Project's</Link>
+                    </li>
+                    <li>
                         <Link to="ContactMe" smooth={true} offset={0} duration={400} className='text-white text-lg hover:bg-yellow-500 hover:p-1 hover:text-black hover:rounded hover:text-bold duration-500 cursor-pointer hover:text-xl'>Contact Me</Link>
                     </li>
                 </nav>

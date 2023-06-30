@@ -3,6 +3,7 @@ import AboutMe from '../AboutMe/AboutMe';
 import './Home.css'
 import { Typewriter } from 'react-simple-typewriter'
 import { Link } from 'react-scroll'
+import { FaAngleDoubleDown } from 'react-icons/fa';
 
 const Home = () => {
     return (
@@ -29,6 +30,9 @@ const Home = () => {
                 <Link to="ContactMe" smooth={true} offset={0} duration={400}>
                     <button className='border-2 btn bg-transparent text-yellow-500 p-2 rounded-lg mt-10 font-semibold border-yellow-500 hover:bg-yellow-500 hover:text-black duration-500 hover:font-semibold transition ease-in-out delay-50 hover:-translate-y-0 hover:scale-110 hover:border-yellow-500 '>Contact Me</button>
                 </Link>
+                <p className='text-white mt-12'>
+                    <FaAngleDoubleDown className='text-yellow-500 w-8 h-7 animate-bounce'></FaAngleDoubleDown>
+                </p>
             </div>
             <AboutMe></AboutMe>
         </>

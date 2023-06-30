@@ -17,7 +17,7 @@ const MySkills = () => {
             <div className='mt-16 grid grid-cols-5 gap-5 px-5'>
 
                 <div className='flex flex-col items-center mt-5'>
-                    <div className="radial-progress text-yellow-500" style={{ "--value": 90, "--size": "7rem", fontWeight: "bold" }} id="html-title">
+                    <div className="radial-progress text-yellow-500" style={{ "--value": 90, "--size": "7rem", fontWeight: "bold", "--thickness": "5px" }} id="html-title">
                         <FaHtml5 className='w-10 h-10 text-center hide'></FaHtml5>
                     </div>
                     <ReactTooltip
@@ -34,7 +34,7 @@ const MySkills = () => {
                 </div>
 
                 <div className='flex flex-col items-center mt-5'>
-                    <div className="radial-progress text-yellow-500" style={{ "--value": 90, "--size": "7rem", fontSize: "23px", fontWeight: "bold" }} id="css-title">
+                    <div className="radial-progress text-yellow-500" style={{ "--value": 90, "--size": "7rem", fontSize: "23px", fontWeight: "bold", "--thickness": "5px" }} id="css-title">
                         <FaCss3Alt className='w-10 h-10 text-center'></FaCss3Alt>
                     </div>
                     <ReactTooltip
@@ -51,7 +51,7 @@ const MySkills = () => {
                 </div>
 
                 <div className='flex flex-col items-center mt-5'>
-                    <div className="radial-progress text-yellow-500" style={{ "--value": 80, "--size": "7rem", fontSize: "23px", fontWeight: "bold" }} id="javaScript-title">
+                    <div className="radial-progress text-yellow-500" style={{ "--value": 80, "--size": "7rem", fontSize: "23px", fontWeight: "bold", "--thickness": "5px" }} id="javaScript-title">
                         <FaJs className='w-10 h-10 text-center'></FaJs>
                     </div>
                     <ReactTooltip
@@ -68,7 +68,7 @@ const MySkills = () => {
                 </div>
 
                 <div className='flex flex-col items-center mt-5'>
-                    <div className="radial-progress text-yellow-500" style={{ "--value": 90, "--size": "7rem", fontSize: "23px", fontWeight: "bold" }} id="react-title">
+                    <div className="radial-progress text-yellow-500" style={{ "--value": 90, "--size": "7rem", fontSize: "23px", fontWeight: "bold" , "--thickness": "5px" }} id="react-title">
                         <FaReact className='w-10 h-10 text-center'></FaReact>
                     </div>
                     <ReactTooltip
@@ -85,7 +85,7 @@ const MySkills = () => {
                 </div>
 
                 <div className='flex flex-col items-center mt-5'>
-                    <div className="radial-progress text-yellow-500" style={{ "--value": 80, "--size": "7rem", fontSize: "23px", fontWeight: "bold" }} id="node-title">
+                    <div className="radial-progress text-yellow-500" style={{ "--value": 80, "--size": "7rem", fontSize: "23px", fontWeight: "bold" , "--thickness": "5px" }} id="node-title">
                         <FaNodeJs className='w-10 h-10 text-center'></FaNodeJs>
                     </div>
                     <ReactTooltip
@@ -102,7 +102,7 @@ const MySkills = () => {
                 </div>
 
                 <div className='flex flex-col items-center mt-5'>
-                    <div className="radial-progress text-yellow-500" style={{ "--value": 80, "--size": "7rem", fontSize: "23px", fontWeight: "bold" }} id="express-title">
+                    <div className="radial-progress text-yellow-500" style={{ "--value": 80, "--size": "7rem", fontSize: "23px", fontWeight: "bold" , "--thickness": "5px" }} id="express-title">
                         <p className='bg-yellow-500 text-[#212529] px-2 py-1 rounded text-2xl'>Ex</p>
                     </div>
                     <ReactTooltip
@@ -119,7 +119,7 @@ const MySkills = () => {
                 </div>
 
                 <div className='flex flex-col items-center mt-5'>
-                    <div className="radial-progress text-yellow-500" style={{ "--value": 80, "--size": "7rem", fontSize: "23px", fontWeight: "bold" }} id="mongoDB-title">
+                    <div className="radial-progress text-yellow-500" style={{ "--value": 80, "--size": "7rem", fontSize: "23px", fontWeight: "bold" , "--thickness": "5px" }} id="mongoDB-title">
                         <img className='bg-yellow-500 w-10 p-1 rounded' src={mongoDB_img} alt="" />
                     </div>
                     <ReactTooltip
@@ -136,7 +136,7 @@ const MySkills = () => {
                 </div>
 
                 <div className='flex flex-col items-center mt-5'>
-                    <div className="radial-progress text-yellow-500" style={{ "--value": 80, "--size": "7rem", fontSize: "23px", fontWeight: "bold" }} id="firebase-title">
+                    <div className="radial-progress text-yellow-500" style={{ "--value": 80, "--size": "7rem", fontSize: "23px", fontWeight: "bold" , "--thickness": "5px" }} id="firebase-title">
                         <FaFire className='w-10 h-10 text-center'></FaFire>
                     </div>
                     <ReactTooltip
@@ -153,7 +153,7 @@ const MySkills = () => {
                 </div>
 
                 <div className='flex flex-col items-center mt-5'>
-                    <div className="radial-progress text-yellow-500" style={{ "--value": 90, "--size": "7rem", fontSize: "23px", fontWeight: "bold" }} id="bootstrap-title">
+                    <div className="radial-progress text-yellow-500" style={{ "--value": 90, "--size": "7rem", fontSize: "23px", fontWeight: "bold" , "--thickness": "5px" }} id="bootstrap-title">
                         <FaBootstrap className='w-10 h-10 text-center'></FaBootstrap>
                     </div>
                     <ReactTooltip
@@ -170,7 +170,7 @@ const MySkills = () => {
                 </div>
 
                 <div className='flex flex-col items-center mt-5'>
-                    <div className="radial-progress text-yellow-500" style={{ "--value": 90, "--size": "7rem", fontSize: "23px", fontWeight: "bold" }} id="tailwind-title">
+                    <div className="radial-progress text-yellow-500" style={{ "--value": 90, "--size": "7rem", fontSize: "23px", fontWeight: "bold" , "--thickness": "5px" }} id="tailwind-title">
                         <img className='bg-yellow-500 w-10 p-1 rounded' src={tailwind_img} alt="" />
                     </div>
                     <ReactTooltip

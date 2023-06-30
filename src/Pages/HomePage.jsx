@@ -4,6 +4,7 @@ import { Outlet } from 'react-router-dom';
 import Contact from '../Component\'s/ContactMe/Contact';
 import MyServices from '../Component\'s/MyService\'s/MyServices';
 import MySkills from '../Component\'s/MySkills/MySkills';
+import MyProjects from '../Component\'s/MyProjects/MyProjects';
 
 const HomePage = () => {
     return (
@@ -15,6 +16,7 @@ const HomePage = () => {
                 <Outlet></Outlet>
                 <MyServices></MyServices>
                 <MySkills></MySkills>
+                <MyProjects></MyProjects>
                 <Contact></Contact>
             </div>
         </div>

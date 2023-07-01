@@ -1,7 +1,6 @@
 import React from 'react';
 import mongoDB_img from '../../assets/mongodb.png'
 import tailwind_img from '../../assets/tailwind-css.png'
-import './MySkills.css'
 import { FaBootstrap, FaCss3Alt, FaFire, FaHtml5, FaJs, FaNodeJs, FaReact } from 'react-icons/fa';
 import 'react-tooltip/dist/react-tooltip.css'
 import { Tooltip as ReactTooltip } from 'react-tooltip'
@@ -25,7 +24,7 @@ const MySkills = () => {
                         place="right"
                         className='custom-arrow-radius'
                         variant="warning"
-                        style={{ backgroundColor: "#EAB308", color: "#FFFFFF", fontSize: "20px", opacity: 100 }}
+                        style={{ backgroundColor: "#14B8A6", color: "#FFFFFF", fontSize: "20px", opacity: 100 }}
                         content="90%"
                         delayShow={200}
                         delayHide={200}
@@ -42,7 +41,7 @@ const MySkills = () => {
                         place="right"
                         className='custom-arrow-radius'
                         variant="warning"
-                        style={{ backgroundColor: "#EAB308", color: "#FFFFFF", fontSize: "20px", opacity: 100 }}
+                        style={{ backgroundColor: "#14B8A6", color: "#FFFFFF", fontSize: "20px", opacity: 100 }}
                         content="90%"
                         delayShow={200}
                         delayHide={200}
@@ -59,7 +58,7 @@ const MySkills = () => {
                         place="right"
                         className='custom-arrow-radius'
                         variant="warning"
-                        style={{ backgroundColor: "#EAB308", color: "#FFFFFF", fontSize: "20px", opacity: 100 }}
+                        style={{ backgroundColor: "#14B8A6", color: "#FFFFFF", fontSize: "20px", opacity: 100 }}
                         content="80%"
                         delayShow={200}
                         delayHide={200}
@@ -76,7 +75,7 @@ const MySkills = () => {
                         place="right"
                         className='custom-arrow-radius'
                         variant="warning"
-                        style={{ backgroundColor: "#EAB308", color: "#FFFFFF", fontSize: "20px", opacity: 100 }}
+                        style={{ backgroundColor: "#14B8A6", color: "#FFFFFF", fontSize: "20px", opacity: 100 }}
                         content="90%"
                         delayShow={200}
                         delayHide={200}
@@ -93,7 +92,7 @@ const MySkills = () => {
                         place="right"
                         className='custom-arrow-radius'
                         variant="warning"
-                        style={{ backgroundColor: "#EAB308", color: "#FFFFFF", fontSize: "20px", opacity: 100 }}
+                        style={{ backgroundColor: "#14B8A6", color: "#FFFFFF", fontSize: "20px", opacity: 100 }}
                         content="80%"
                         delayShow={200}
                         delayHide={200}
@@ -110,7 +109,7 @@ const MySkills = () => {
                         place="right"
                         className='custom-arrow-radius'
                         variant="warning"
-                        style={{ backgroundColor: "#EAB308", color: "#FFFFFF", fontSize: "20px", opacity: 100 }}
+                        style={{ backgroundColor: "#14B8A6", color: "#FFFFFF", fontSize: "20px", opacity: 100 }}
                         content="80%"
                         delayShow={200}
                         delayHide={200}
@@ -127,7 +126,7 @@ const MySkills = () => {
                         place="right"
                         className='custom-arrow-radius'
                         variant="warning"
-                        style={{ backgroundColor: "#EAB308", color: "#FFFFFF", fontSize: "20px", opacity: 100 }}
+                        style={{ backgroundColor: "#14B8A6", color: "#FFFFFF", fontSize: "20px", opacity: 100 }}
                         content="80%"
                         delayShow={200}
                         delayHide={200}
@@ -144,7 +143,7 @@ const MySkills = () => {
                         place="right"
                         className='custom-arrow-radius'
                         variant="warning"
-                        style={{ backgroundColor: "#EAB308", color: "#FFFFFF", fontSize: "20px", opacity: 100 }}
+                        style={{ backgroundColor: "#14B8A6", color: "#FFFFFF", fontSize: "20px", opacity: 100 }}
                         content="80%"
                         delayShow={200}
                         delayHide={200}
@@ -161,7 +160,7 @@ const MySkills = () => {
                         place="right"
                         className='custom-arrow-radius'
                         variant="warning"
-                        style={{ backgroundColor: "#EAB308", color: "#FFFFFF", fontSize: "20px", opacity: 100 }}
+                        style={{ backgroundColor: "#14B8A6", color: "#FFFFFF", fontSize: "20px", opacity: 100 }}
                         content="90%"
                         delayShow={200}
                         delayHide={200}
@@ -178,7 +177,7 @@ const MySkills = () => {
                         place="right"
                         className='custom-arrow-radius'
                         variant="warning"
-                        style={{ backgroundColor: "#EAB308", color: "#FFFFFF", fontSize: "20px", opacity: 100 }}
+                        style={{ backgroundColor: "#14B8A6", color: "#FFFFFF", fontSize: "20px", opacity: 100 }}
                         content="90%"
                         delayShow={200}
                         delayHide={200}

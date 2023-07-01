@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars, FaFacebook, FaGithub, FaLinkedin, FaRegTimesCircle, FaTwitter } from "react-icons/fa";
 import { Link } from 'react-scroll'
-import myImg from '../../assets/WhatsApp_Image_2023-06-17_at_20.24.34__1_-removebg-preview.png'
+import myImg from '../../assets/mainImg.png'
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);

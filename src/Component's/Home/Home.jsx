@@ -8,7 +8,7 @@ import { FaAngleDoubleDown } from 'react-icons/fa';
 const Home = () => {
     return (
         <>
-            <div className='h-screen w-full flex flex-col justify-center items-center bg-Img p-4 md:p-0' id='home'>
+            <div className='h-screen bg-fixed w-full flex flex-col justify-center items-center bg-Img p-4 md:p-0' id='home'>
                 <h2 className='font-bold text-3xl text-white mb-5'>Welcome</h2>
                 <h3 style={{ color: 'white', fontSize: '50px', fontWeight: 'bold' }}>
                     {'<'} I'm {' '}

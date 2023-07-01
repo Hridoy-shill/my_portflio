@@ -5,6 +5,7 @@ import Contact from '../Component\'s/ContactMe/Contact';
 import MyServices from '../Component\'s/MyService\'s/MyServices';
 import MySkills from '../Component\'s/MySkills/MySkills';
 import MyProjects from '../Component\'s/MyProjects/MyProjects';
+import Footer from '../Component\'s/Footer/Footer';
 
 const HomePage = () => {
     return (
@@ -18,6 +19,7 @@ const HomePage = () => {
                 <MySkills></MySkills>
                 <MyProjects></MyProjects>
                 <Contact></Contact>
+                <Footer></Footer>
             </div>
         </div>
     );

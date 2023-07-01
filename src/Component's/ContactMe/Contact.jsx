@@ -36,10 +36,10 @@ const Contact = () => {
                     <form id='myFrom' action="https://formspree.io/f/meqbjnvo"
                         method="POST">
                         <div className='flex space-x-5 mt-7'>
-                            <input className='w-full p-2 rounded-sm text-white text-lg bg-[#343A40]' type="text" name="name" id="name" placeholder='Name' required/>
-                            <input className='w-full p-2 rounded-sm text-white text-lg bg-[#343A40]' type="email" name="name" id="name" placeholder='Email' required/>
+                            <input className='w-full p-2 rounded-md text-white text-lg bg-[#343A40]' type="text" name="name" id="name" placeholder='Name' required/>
+                            <input className='w-full p-2 rounded-md text-white text-lg bg-[#343A40]' type="email" name="name" id="name" placeholder='Email' required/>
                         </div>
-                        <textarea className='w-full bg-[#343A40] mt-5 rounded-sm p-2 text-lg' name="message" id="" cols="30" rows="5" placeholder='Message us for more...' required></textarea>
+                        <textarea className='w-full bg-[#343A40] mt-5 rounded-md p-2 text-lg' name="message" id="" cols="30" rows="5" placeholder='Message us for more...' required></textarea>
 
                         <div className='w-full text-center'>
                             <input className='border-2 btn bg-transparent text-teal-500 p-2 rounded-lg mt-5 font-semibold border-teal-500 hover:bg-teal-500 hover:text-black duration-500 hover:font-semibold transition ease-in-out delay-50 hover:-translate-y-0 hover:scale-110 hover:border-teal-500 w-[20%] text-center' type="submit" value="SEND"/>

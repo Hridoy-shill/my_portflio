@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className='p-3 md:p-4 md:sticky md:top-0'>
             <div className='flex justify-between '>
                 <div className='md:mx-auto'>
-                    <img className='rounded-full md:w-44 w-14 border-4 border-teal-500 duration-500' src={myImg} title='Hridoy shill'/>
+                    <img className='rounded-full md:w-44 w-14 border-4 border-teal-500 duration-500' src={myImg} title='Hridoy shill' />
                     <p className='text-teal-500 font-bold md:text-center text-2xl md:text-2xl mt-2'>Hridoy Shill</p>
                 </div>
                 <div onClick={() => setIsMenuOpen(!isMenuOpen)} className='md:hidden'>
@@ -35,7 +35,7 @@ const Navbar = () => {
                         </span>
                     </button>
                 </div>
-                <nav  data-aos="fade-up" className='md:text-center mx-auto space-y-5 mt-6'>
+                <nav className='md:text-center mx-auto space-y-5 mt-6'>
                     <li>
                         <Link to="home" smooth={true} offset={0} duration={400} className='text-white text-lg hover:bg-teal-500 hover:p-1 hover:text-black hover:font-semibold hover:rounded hover:text-bold duration-500 cursor-pointer hover:text-xl'>Home</Link>
                     </li>
@@ -57,10 +57,18 @@ const Navbar = () => {
                 </nav>
             </ul>
             <div className='flex justify-center space-x-5 mt-10'>
-                <FaFacebook className='w-6 h-6 text-gray-400 hover:text-teal-500 hover:w-7 hover:h-7 duration-200'></FaFacebook>
-                <FaGithub className='w-6 h-6 text-gray-400 hover:text-teal-500 hover:w-7 hover:h-7 duration-200'></FaGithub>
-                <FaLinkedin className='w-6 h-6 text-gray-400 hover:text-teal-500 hover:w-7 hover:h-7 duration-200'></FaLinkedin>
-                <FaTwitter className='w-6 h-6 text-gray-400 hover:text-teal-500 hover:w-7 hover:h-7 duration-200'></FaTwitter>
+                <a href="https://www.facebook.com/HridoyShillrohan/">
+                    <FaFacebook className='w-6 h-6 text-gray-400 hover:text-teal-500 hover:w-7 hover:h-7 duration-200'></FaFacebook>
+                </a>
+                <a href="https://github.com/Hridoy-shill">
+                    <FaGithub className='w-6 h-6 text-gray-400 hover:text-teal-500 hover:w-7 hover:h-7 duration-200'></FaGithub>
+                </a>
+                <a href="https://www.linkedin.com/in/hridoy-shill-453a0422b/">
+                    <FaLinkedin className='w-6 h-6 text-gray-400 hover:text-teal-500 hover:w-7 hover:h-7 duration-200'></FaLinkedin>
+                </a>
+                <a href="/">
+                    <FaTwitter className='w-6 h-6 text-gray-400 hover:text-teal-500 hover:w-7 hover:h-7 duration-200'></FaTwitter>
+                </a>
             </div>
         </div>
     );

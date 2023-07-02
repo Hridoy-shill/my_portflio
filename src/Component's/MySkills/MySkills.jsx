@@ -7,15 +7,15 @@ import { Tooltip as ReactTooltip } from 'react-tooltip'
 
 const MySkills = () => {
     return (
-        <div className='w-full h-screen bg-[#212529] text-white' id='mySkills'>
-            <div data-aos="fade-up" className='flex-col px-32'>
-                <h2 className='text-9xl text-gray-500 text-opacity-20 font-bold pt-10 tracking-wide text-center'>My Skill's</h2>
-                <p className='text-center text-teal-500 text-4xl font-bold -mt-20 border-b-4 pb-3 border-teal-500'>Skill's !</p>
+        <div className='w-full h-fit bg-[#212529] text-white py-10' id='mySkills'>
+            <div className='flex-col md:px-32 px-5'>
+                <h2 className='md:text-9xl text-5xl text-gray-500 text-opacity-20 font-bold pt-5 md:tracking-wide text-center'>My Skill's</h2>
+                <p className='text-center text-teal-500 md:text-4xl text-xl font-bold md:-mt-20 -mt-9 border-b-4 pb-3 border-teal-500'>Skill's !</p>
             </div>
 
-            <div className='mt-16 grid grid-cols-5 gap-5 px-5'>
+            <div className='md:mt-16 mt-10 grid md:grid-cols-5 grid-cols-2 gap-5 px-5'>
 
-                <div data-aos="fade-right" className='flex flex-col items-center mt-5'>
+                <div  className='flex flex-col items-center mt-5'>
                     <div className="radial-progress text-teal-500" style={{ "--value": 90, "--size": "7rem", fontWeight: "bold", "--thickness": "5px" }} id="html-title">
                         <FaHtml5 className='w-10 h-10 text-center hide'></FaHtml5>
                     </div>
@@ -32,7 +32,7 @@ const MySkills = () => {
                     <p className='mt-3 text-xl font-bold'>HTML5</p>
                 </div>
 
-                <div data-aos="fade-right" className='flex flex-col items-center mt-5'>
+                <div  className='flex flex-col items-center mt-5'>
                     <div className="radial-progress text-teal-500" style={{ "--value": 90, "--size": "7rem", fontSize: "23px", fontWeight: "bold", "--thickness": "5px" }} id="css-title">
                         <FaCss3Alt className='w-10 h-10 text-center'></FaCss3Alt>
                     </div>
@@ -49,7 +49,7 @@ const MySkills = () => {
                     <p className='mt-3 text-xl font-bold'>CSS3</p>
                 </div>
 
-                <div data-aos="fade-right" className='flex flex-col items-center mt-5'>
+                <div  className='flex flex-col items-center mt-5'>
                     <div className="radial-progress text-teal-500" style={{ "--value": 80, "--size": "7rem", fontSize: "23px", fontWeight: "bold", "--thickness": "5px" }} id="javaScript-title">
                         <FaJs className='w-10 h-10 text-center'></FaJs>
                     </div>
@@ -66,7 +66,7 @@ const MySkills = () => {
                     <p className='mt-3 text-xl font-bold'>JavaScript</p>
                 </div>
 
-                <div data-aos="fade-right" className='flex flex-col items-center mt-5'>
+                <div  className='flex flex-col items-center mt-5'>
                     <div className="radial-progress text-teal-500" style={{ "--value": 90, "--size": "7rem", fontSize: "23px", fontWeight: "bold" , "--thickness": "5px" }} id="react-title">
                         <FaReact className='w-10 h-10 text-center'></FaReact>
                     </div>
@@ -83,7 +83,7 @@ const MySkills = () => {
                     <p className='mt-3 text-xl font-bold'>React.JS</p>
                 </div>
 
-                <div data-aos="fade-right" className='flex flex-col items-center mt-5'>
+                <div  className='flex flex-col items-center mt-5'>
                     <div className="radial-progress text-teal-500" style={{ "--value": 80, "--size": "7rem", fontSize: "23px", fontWeight: "bold" , "--thickness": "5px" }} id="node-title">
                         <FaNodeJs className='w-10 h-10 text-center'></FaNodeJs>
                     </div>
@@ -100,7 +100,7 @@ const MySkills = () => {
                     <p className='mt-3 text-xl font-bold'>Node.JS</p>
                 </div>
 
-                <div data-aos="fade-left" className='flex flex-col items-center mt-5'>
+                <div  className='flex flex-col items-center mt-5'>
                     <div className="radial-progress text-teal-500" style={{ "--value": 80, "--size": "7rem", fontSize: "23px", fontWeight: "bold" , "--thickness": "5px" }} id="express-title">
                         <p className='bg-teal-500 text-[#212529] px-2 py-1 rounded text-2xl'>Ex</p>
                     </div>
@@ -117,7 +117,7 @@ const MySkills = () => {
                     <p className='mt-3 text-xl font-bold'>Express.JS</p>
                 </div>
 
-                <div data-aos="fade-left" className='flex flex-col items-center mt-5'>
+                <div  className='flex flex-col items-center mt-5'>
                     <div className="radial-progress text-teal-500" style={{ "--value": 80, "--size": "7rem", fontSize: "23px", fontWeight: "bold" , "--thickness": "5px" }} id="mongoDB-title">
                         <img className='bg-teal-500 w-10 p-1 rounded' src={mongoDB_img} alt="" />
                     </div>
@@ -134,7 +134,7 @@ const MySkills = () => {
                     <p className='mt-3 text-xl font-bold'>MongoDB</p>
                 </div>
 
-                <div data-aos="fade-left" className='flex flex-col items-center mt-5'>
+                <div  className='flex flex-col items-center mt-5'>
                     <div className="radial-progress text-teal-500" style={{ "--value": 80, "--size": "7rem", fontSize: "23px", fontWeight: "bold" , "--thickness": "5px" }} id="firebase-title">
                         <FaFire className='w-10 h-10 text-center'></FaFire>
                     </div>
@@ -151,7 +151,7 @@ const MySkills = () => {
                     <p className='mt-3 text-xl font-bold'>Firebase</p>
                 </div>
 
-                <div data-aos="fade-left" className='flex flex-col items-center mt-5'>
+                <div  className='flex flex-col items-center mt-5'>
                     <div className="radial-progress text-teal-500" style={{ "--value": 90, "--size": "7rem", fontSize: "23px", fontWeight: "bold" , "--thickness": "5px" }} id="bootstrap-title">
                         <FaBootstrap className='w-10 h-10 text-center'></FaBootstrap>
                     </div>
@@ -168,7 +168,7 @@ const MySkills = () => {
                     <p className='mt-3 text-xl font-bold'>Bootstrap</p>
                 </div>
 
-                <div data-aos="fade-left" className='flex flex-col items-center mt-5'>
+                <div  className='flex flex-col items-center mt-5'>
                     <div className="radial-progress text-teal-500" style={{ "--value": 90, "--size": "7rem", fontSize: "23px", fontWeight: "bold" , "--thickness": "5px" }} id="tailwind-title">
                         <img className='bg-teal-500 w-10 p-1 rounded' src={tailwind_img} alt="" />
                     </div>

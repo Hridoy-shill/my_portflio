@@ -8,7 +8,7 @@ const Navbar = () => {
 
     return (
         <div className='p-3 md:p-4 md:sticky md:top-0'>
-            <div className='flex justify-between '>
+            <div className='flex justify-between'>
                 <div className='md:mx-auto'>
                     <img className='rounded-full md:w-44 w-14 border-4 border-teal-500 duration-500' src={myImg} title='Hridoy shill' />
                     <p className='text-teal-500 font-bold md:text-center text-2xl md:text-2xl mt-2'>Hridoy Shill</p>
@@ -56,7 +56,7 @@ const Navbar = () => {
                     </li>
                 </nav>
             </ul>
-            <div className='flex justify-center space-x-5 mt-10'>
+            <div className='flex md:justify-center md:space-x-5 space-x-3 md:mt-10 mt-3'>
                 <a href="https://www.facebook.com/HridoyShillrohan/">
                     <FaFacebook className='w-6 h-6 text-gray-400 hover:text-teal-500 hover:w-7 hover:h-7 duration-200'></FaFacebook>
                 </a>

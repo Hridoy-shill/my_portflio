@@ -44,7 +44,7 @@ const MyProjects = () => {
                         </div>
                     </div>
                 </TabPanel>
-                <TabPanel className='w-full h-full mt-8 px-10'>
+                <TabPanel className='w-full h-full mt-8 md:px-10 px-5'>
                     <div className='md:flex w-[100%] border-2 border-gray-500 rounded-lg gap-4 p-4'>
                         <div className='md:w-[30%]'>
                             <div className="relative max-w-full h-72 overflow-hidden rounded-md">
@@ -65,8 +65,8 @@ const MyProjects = () => {
                         </div>
                     </div>
                 </TabPanel>
-                <TabPanel className='w-full h-full mt-8 px-10'>
-                    <div className='md:flex w-[100%] border-2 border-gray-500 rounded-lg gap-4 p-4'>
+                <TabPanel className='w-full h-full mt-8 md:px-10 px-5'>
+                    <div className='md:flex w-[100%] border-2 border-gray-500 rounded-lg gap-4 p-4 md:mb-8 mb-10'>
                         <div className='md:w-[30%]'>
                             <div className="relative max-w-full h-72 overflow-hidden rounded-md">
                                 <div className="h-max w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)]">
@@ -77,7 +77,7 @@ const MyProjects = () => {
                         </div>
                         <div className='md:w-[70%] mt-5 md:mt-0 text-white'>
                             <h2 className='text-4xl font-semibold text-teal-500'>JOB BAZAR.COM</h2>
-                            <ul className='leading-tight my-5 space-y-2 text-lg text-gray-200 text-opacity-60 font-semibold '>
+                            <ul className='leading-tight my-5 space-y-2 text-lg text-gray-200 text-opacity-60 font-semibold'>
                                 <li>1. It's a job portal based static website, like(wellfound, internshala.etc).</li>
                                 <li className=''>2. User can create account and apply jobs, also user can filter job's by remote or onside..etc</li>
                                 <li className=''>Technology's : (html5, css3, tailwind, daisyUi, javascript, react.js, firebase)</li>

@@ -1,17 +1,16 @@
-import { clear } from 'localforage';
 import React from 'react';
 import { FaFacebook, FaGithub, FaLinkedin, FaPhoneAlt, FaPhoneSquareAlt, FaRegEnvelope, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 
 const Contact = () => {
     return (
         <div className='h-screen w-full bg-[#212529]' id='ContactMe'>
-            <div className='flex-col px-32'>
+            <div data-aos="fade-up" className='flex-col px-32'>
                 <h2 className='text-9xl text-gray-500 text-opacity-20 font-bold pt-10 tracking-wide text-center'>CONTACT'S</h2>
                 <p className='text-center text-teal-500 text-4xl font-bold -mt-20 border-b-4 pb-3 border-teal-500'>Get in Touch</p>
             </div>
 
             <div className='w-[100%] text-white flex mt-20 px-10 gap-10'>
-                <div className='w-[30%]'>
+                <div data-aos="fade-right" className='w-[30%]'>
                     <h2 className='text-xl font-semibold text-teal-500'>ADDRESS</h2>
                     <div className='mt-5'>
                         <p className='text-lg font-medium '>Hossain Ali tower, 5th Floor</p>
@@ -31,7 +30,7 @@ const Contact = () => {
                         <FaTwitter className='w-6 h-6 text-gray-400 hover:text-teal-500 hover:w-7 hover:h-7 duration-200'></FaTwitter>
                     </div>
                 </div>
-                <div className='w-[70%]'>
+                <div data-aos="fade-left" className='w-[70%]'>
                     <h2 className='text-xl font-semibold text-teal-500'>SEND US A NOTE</h2>
                     <form id='myFrom' action="https://formspree.io/f/meqbjnvo"
                         method="POST">

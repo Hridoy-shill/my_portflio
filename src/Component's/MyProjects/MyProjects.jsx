@@ -9,13 +9,13 @@ import { FaExternalLinkAlt } from 'react-icons/fa';
 const MyProjects = () => {
     return (
         <div className='h-screen w-full bg-[#343A40]' id='myProject'>
-            <div className='flex-col px-32'>
+            <div data-aos="fade-up" className='flex-col px-32'>
                 <h2 className='text-9xl text-gray-500 text-opacity-20 font-bold pt-10 tracking-wide text-center'>PROJECT'S</h2>
                 <p className='text-center text-teal-500 text-4xl font-bold -mt-20 border-b-4 pb-3 border-teal-500'>My Project's</p>
             </div>
 
             <Tabs>
-                <TabList className="w-full flex justify-center mt-16 space-x-4">
+                <TabList data-aos="fade-left" className="w-full flex justify-center mt-16 space-x-4">
                     <Tab className="text-xl font-semibold text-gray-200 text-opacity-40 focus:bg-transparent outline-none focus:border-teal-500 focus:text-teal-500 px-2 focus:border-b-2 border-b-2 border-teal-500 hover:cursor-pointer">PROJECT-1</Tab>
 
                     <Tab className="text-xl font-semibold text-gray-200 text-opacity-40 focus:bg-transparent outline-none focus:border-teal-500 focus:text-teal-500 px-2 focus:border-b-2 border-b-2 border-teal-500 hover:cursor-pointer">PROJECT-2</Tab>
@@ -24,7 +24,7 @@ const MyProjects = () => {
                 </TabList>
 
                 <TabPanel className='w-full h-full mt-8 px-10'>
-                    <div className='flex w-[100%] border-2 border-gray-500 rounded-lg gap-4 p-4'>
+                    <div data-aos="fade-right" className='flex w-[100%] border-2 border-gray-500 rounded-lg gap-4 p-4'>
                         <div className='w-[30%]'>
                             <div className="relative max-w-full h-72 overflow-hidden rounded-md">
                                 <div className="h-max w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)]">
@@ -45,7 +45,7 @@ const MyProjects = () => {
                     </div>
                 </TabPanel>
                 <TabPanel className='w-full h-full mt-8 px-10'>
-                    <div className='flex w-[100%] border-2 border-gray-500 rounded-lg gap-4 p-4'>
+                    <div data-aos="fade-left" className='flex w-[100%] border-2 border-gray-500 rounded-lg gap-4 p-4'>
                         <div className='w-[30%]'>
                             <div className="relative max-w-full h-72 overflow-hidden rounded-md">
                                 <div className="h-max w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)]">
@@ -66,7 +66,7 @@ const MyProjects = () => {
                     </div>
                 </TabPanel>
                 <TabPanel className='w-full h-full mt-8 px-10'>
-                    <div className='flex w-[100%] border-2  border-gray-500 rounded-lg gap-4 p-4'>
+                    <div data-aos="fade-right" className='flex w-[100%] border-2  border-gray-500 rounded-lg gap-4 p-4'>
                         <div className='w-[30%]'>
                             <div className="relative max-w-full h-72 overflow-hidden rounded-md">
                                 <div className="h-max w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)]">

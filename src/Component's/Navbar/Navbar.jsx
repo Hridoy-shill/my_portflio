@@ -35,7 +35,7 @@ const Navbar = () => {
                         </span>
                     </button>
                 </div>
-                <nav className='md:text-center mx-auto space-y-5 mt-6'>
+                <nav  data-aos="fade-up" className='md:text-center mx-auto space-y-5 mt-6'>
                     <li>
                         <Link to="home" smooth={true} offset={0} duration={400} className='text-white text-lg hover:bg-teal-500 hover:p-1 hover:text-black hover:font-semibold hover:rounded hover:text-bold duration-500 cursor-pointer hover:text-xl'>Home</Link>
                     </li>

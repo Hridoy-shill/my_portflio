@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMe = () => {
     const handleDownload = () => {
-        const fileUrl = 'https://drive.google.com/file/d/1J_ENoEKfFVXLVN8vjdQ7v4ImW2ayXr_O/view?usp=sharing';
+        const fileUrl = 'https://drive.google.com/file/d/1PkT-GS60fvFaTljWPqiADXmEfWNl5txr/view?usp=sharing';
         const link = document.createElement('a');
         link.href = fileUrl;
         link.setAttribute('download', 'Hridoy_shill_Resume.pdf');

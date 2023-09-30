@@ -1,9 +1,11 @@
 import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import project1 from '../../assets/screenshot-the-music-mystery.web.app-2023.06.30-21_55_45.png';
+import project1 from '../../assets/the-music-mystery-web-app-2023-10-01-00_10_10.png'
 import project2 from '../../assets/screenshot-car-world-77c5e.web.app-2023.06.30-22_00_18.png';
 import project3 from '../../assets/screenshot-starlit-gumdrop-d85763.netlify.app-2023.06.30-22_02_01.png';
+import project4 from '../../assets/justic.png';
+import project5 from '../../assets/civil-project.png'
 import { FaExternalLinkAlt } from 'react-icons/fa';
 
 const MyProjects = () => {
@@ -21,6 +23,10 @@ const MyProjects = () => {
                     <Tab className="text-xl font-semibold text-gray-200 text-opacity-40 focus:bg-transparent outline-none focus:border-teal-500 focus:text-teal-500 px-2 focus:border-b-2 border-b-2 border-teal-500 hover:cursor-pointer">PROJECT-2</Tab>
 
                     <Tab className="text-xl font-semibold text-gray-200 text-opacity-40 focus:bg-transparent outline-none focus:border-teal-500 focus:text-teal-500 px-2 focus:border-b-2 border-b-2 border-teal-500 hover:cursor-pointer">PROJECT-3</Tab>
+
+                    <Tab className="text-xl font-semibold text-gray-200 text-opacity-40 focus:bg-transparent outline-none focus:border-teal-500 focus:text-teal-500 px-2 focus:border-b-2 border-b-2 border-teal-500 hover:cursor-pointer">PROJECT-4</Tab>
+
+                    <Tab className="text-xl font-semibold text-gray-200 text-opacity-40 focus:bg-transparent outline-none focus:border-teal-500 focus:text-teal-500 px-2 focus:border-b-2 border-b-2 border-teal-500 hover:cursor-pointer">PROJECT-5</Tab>
                 </TabList>
 
                 <TabPanel className='w-full h-full mt-8 md:px-10 px-5'>
@@ -83,6 +89,48 @@ const MyProjects = () => {
                                 <li className=''>Technology's : (html5, css3, tailwind, daisyUi, javascript, react.js, firebase)</li>
                             </ul>
                             <a className='text-teal-500 font-semibold hover:underline flex items-center gap-2' href="https://starlit-gumdrop-d85763.netlify.app/">Visit JOB BAZAR.COM <FaExternalLinkAlt className='w-3'></FaExternalLinkAlt></a>
+                        </div>
+                    </div>
+                </TabPanel>
+                <TabPanel className='w-full h-full mt-8 md:px-10 px-5'>
+                    <div className='md:flex w-[100%] border-2 border-gray-500 rounded-lg gap-4 p-4 md:mb-8 mb-10'>
+                        <div className='md:w-[30%]'>
+                            <div className="relative max-w-full h-72 overflow-hidden rounded-md">
+                                <div className="h-max w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)]">
+                                    <img src={project4} alt="" className="w-full object-cover object-top"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div className='md:w-[70%] mt-5 md:mt-0 text-white'>
+                            <h2 className='text-4xl font-semibold text-teal-500'>The Justice</h2>
+                            <ul className='leading-tight my-5 space-y-2 text-lg text-gray-200 text-opacity-60 font-semibold'>
+                                <li>1. It's a lower based static website.</li>
+                                <li className=''>2. Clients can contact with there lower by this website.</li>
+                                <li className=''>Technology's : (html5, css3, tailwind, daisyUi, javascript, react.js, firebase)</li>
+                            </ul>
+                            <a className='text-teal-500 font-semibold hover:underline flex items-center gap-2' href="https://kaleidoscopic-dieffenbachia-e896f7.netlify.app/">Visit The Justice <FaExternalLinkAlt className='w-3'></FaExternalLinkAlt></a>
+                        </div>
+                    </div>
+                </TabPanel>
+                <TabPanel className='w-full h-full mt-8 md:px-10 px-5'>
+                    <div className='md:flex w-[100%] border-2 border-gray-500 rounded-lg gap-4 p-4 md:mb-8 mb-10'>
+                        <div className='md:w-[30%]'>
+                            <div className="relative max-w-full h-72 overflow-hidden rounded-md">
+                                <div className="h-max w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)]">
+                                    <img src={project5} alt="" className="w-full object-cover object-top"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div className='md:w-[70%] mt-5 md:mt-0 text-white'>
+                            <h2 className='text-4xl font-semibold text-teal-500'>G3 Architects</h2>
+                            <ul className='leading-tight my-5 space-y-2 text-lg text-gray-200 text-opacity-60 font-semibold'>
+                                <li>1. It's a Architects design based static website.</li>
+                                <li className=''>2. User can watch the design's of the Architect's and they can contact with the team for build the own's design</li>
+                                <li className=''>Technology's : (html5, css3, tailwind, daisyUi, javascript, react.js, firebase)</li>
+                            </ul>
+                            <a className='text-teal-500 font-semibold hover:underline flex items-center gap-2' href="https://frolicking-quokka-69200c.netlify.app/">Visit G3 Architects<FaExternalLinkAlt className='w-3'></FaExternalLinkAlt></a>
                         </div>
                     </div>
                 </TabPanel>

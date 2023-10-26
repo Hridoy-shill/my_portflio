@@ -17,7 +17,7 @@ const MyProjects = () => {
             </div>
 
             <Tabs>
-                <TabList className="w-full flex justify-center md:mt-16 mt-10 md:space-x-4 space-x-1">
+                <TabList className="w-full md:flex justify-center md:mt-16 mt-10 md:space-x-4">
                     <Tab className="text-xl font-semibold text-gray-200 text-opacity-40 focus:bg-transparent outline-none focus:border-teal-500 focus:text-teal-500 px-2 focus:border-b-2 border-b-2 border-teal-500 hover:cursor-pointer">PROJECT-1</Tab>
 
                     <Tab className="text-xl font-semibold text-gray-200 text-opacity-40 focus:bg-transparent outline-none focus:border-teal-500 focus:text-teal-500 px-2 focus:border-b-2 border-b-2 border-teal-500 hover:cursor-pointer">PROJECT-2</Tab>

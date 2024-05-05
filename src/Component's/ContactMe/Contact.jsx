@@ -19,7 +19,7 @@ const Contact = () => {
                     </div>
                     <div className='mt-5 space-y-3'>
                         <p className='flex items-center font-semibold gap-3'><FaPhoneAlt className='w-5 h-5 text-teal-500'></FaPhoneAlt> +88016-3708-1773</p>
-                        <p className='flex items-center font-semibold gap-3'><FaRegEnvelope className='w-5 h-5 text-teal-500'></FaRegEnvelope>hridoyshill773jb@gmail.com</p>
+                        <p className='flex items-center font-semibold gap-3'><FaRegEnvelope className='w-5 h-5 text-teal-500'></FaRegEnvelope>ridoyaaa60@gmail.com</p>
                         <a href='https://wa.me/qr/HJICWKH5N7OPF1' className='flex items-center font-semibold gap-3'><FaWhatsapp className='w-5 h-5 text-teal-500'></FaWhatsapp> +88016-3708-1773</a>
                     </div>
 

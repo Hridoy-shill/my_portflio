@@ -25,7 +25,7 @@ const AboutMe = () => {
                 </div>
                 <div  className='text-white md:w-[35%] border-l-4 border-teal-500 p-2 space-y-4'>
                     <p className='text-xl text-teal-500 font-semibold border-b-2 border-b-gray-500 py-2'>Name: <span className='text-white text-lg'>Hridoy Shill</span></p>
-                    <p className='text-xl text-teal-500 font-semibold border-b-2 border-b-gray-500 py-2'>Email: <span className='text-white text-lg'>hridoyshill773jb@gmail.com</span></p>
+                    <p className='text-xl text-teal-500 font-semibold border-b-2 border-b-gray-500 py-2'>Email: <span className='text-white text-lg'>ridoyaaa60@gmail.com</span></p>
                     <p className='text-xl text-teal-500 font-semibold border-b-2 border-b-gray-500 py-2'>Age: <span className='text-white text-lg'>22</span></p>
                     <p className='text-xl text-teal-500 font-semibold border-b-2 border-b-gray-500 py-2'>From: <span className='text-white text-lg'>Chittagong, Bangladesh</span></p>
                 </div>
